@@ -19,7 +19,8 @@ import managementRoutes from "./routes/management"
 // import {dataUser, dataProduct, dataProductStat, dataTransaction, dataOverallStat} from "./data/index.js"
 // import { dataAffiliateStat } from "./data";
 
-import { MONGO_URL } from "./dbURL";
+// import { MONGO_URL } from "./dbURL";
+const MONGO_URL = "mongodb+srv://popstar:pop1234@cluster0.zfjffpr.mongodb.net/?retryWrites=true&w=majority"
 
 const app = express()
 
